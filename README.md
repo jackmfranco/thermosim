@@ -1,6 +1,10 @@
 # thermosim
 
-# simple_cmake_example
+A command-line based thermodynamic system simulator.
+
+Utilizes the [CoolProp](https://github.com/CoolProp/CoolProp) thermophysical property database under the MIT License.
+
+# Build Procedure
 A simple example of how to use the cmake build system and integrate with CoolProp
 
 Prereqs:
@@ -24,10 +28,17 @@ mkdir build && cd build
 ```
 4. Run cmake to generate build system
 ```
-cmake .. -G GENERATOR
+cmake .. 
 ```
-where ``GENERATOR`` would be ``"Visual Studio 14 2015 Win64"`` for Visual Studio 2015, or nothing for the default, or ``Xcode`` for Xcode on OSX.  See ``cmake --help`` for a list of supported generators on your computer
 5. Build!
 ```
 cmake --build .
 ```
+
+### Attribution
+
+Many thanks to the developers of CoolProp for allowing their hard work to be used freely.
+
+A paper covering CoolProp has been published in the Journal Industrial & Engineering Chemistry Research with an OpenAccess license:
+
+I. H. Bell, J. Wronski, S. Quoilin, and V. Lemort, “[Pure and Pseudo-pure Fluid Thermophysical Property Evaluation and the Open-Source Thermophysical Property Library CoolProp](http://pubs.acs.org/doi/abs/10.1021/ie4033999),” Industrial & Engineering Chemistry Research, vol. 53, no. 6, pp. 2498–2508, 2014, doi: 10.1021/ie4033999.
