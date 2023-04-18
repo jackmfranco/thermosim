@@ -7,7 +7,7 @@ set(COOLPROP_STATIC_LIBRARY true CACHE BOOL "Use CoolProp")
 add_subdirectory("${CMAKE_SOURCE_DIR}/externals/coolprop" "CoolProp")
 
 # Define the executable
-add_executable (main "${CMAKE_SOURCE_DIR}/mycode.cpp")
+add_executable (main "${CMAKE_SOURCE_DIR}/main.cpp")
 
 
 # Link the bits together
