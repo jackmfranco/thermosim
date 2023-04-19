@@ -4,7 +4,7 @@ A command-line based thermodynamic system simulator.
 
 Utilizes the [CoolProp](https://github.com/CoolProp/CoolProp) thermophysical property database under the MIT License.
 
-# Build Procedure
+## Build Procedure
 A simple example of how to use the cmake build system and integrate with CoolProp
 
 Prereqs:
@@ -30,9 +30,9 @@ mkdir build && cd build
 ```
 cmake .. 
 ```
-5. Build!
+5. Build and run.
 ```
-cmake --build .
+make && ./main
 ```
 
 ### Attribution
